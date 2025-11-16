@@ -115,10 +115,10 @@ Recommended files for reproducibility:
 The application is live at : https://huggingface.co/spaces/abhi2400/Language_Translator
 
 Screenshots of application:
-`assets/outputs/output1.png`
-`assets/outputs/output2.png`
-`assets/outputs/output3.png`
 
+![Output 1](assets/outputs/output1.png)  
+![Output 2](assets/outputs/output2.png)  
+![Output 3](assets/outputs/output3.png)
 
 ---
 
