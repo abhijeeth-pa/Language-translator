@@ -1,7 +1,7 @@
 # Building a Multi-Functional Translation System Using Python, Gradio, and Speech/PDF Processing
 
 **A Technical Article by Abhijeeth Parimalla**  
-*ML/AI Intern Assignment — Process Point Technologies*
+
 
 ---
 
@@ -307,4 +307,5 @@ Language-translator/
 │
 ├── requirements.txt
 └── README.md
+
 ```
