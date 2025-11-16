@@ -117,17 +117,4 @@ Banner and diagrams are included above. For additional screenshots, add them to 
 
 ---
 
-## ✅ What to include before submission
-
-1. Ensure `article/Technical-Article.md` exists and links to this repo.  
-2. Add `run_experiments.py` that reproduces key figures in the article.  
-3. Populate `assets/outputs/` with representative results and screenshots.  
-4. Update README with any model/API keys and runtime notes (keep secrets out of repo).
-
----
-
-If you'd like, I can:
-- Add `run_experiments.py` that executes a lightweight benchmark,
-- Generate a polished `Technical-Article.md` matching the repository,
-- Create GitHub Actions workflow badges (CI) and add a release.
 
