@@ -112,8 +112,13 @@ Recommended files for reproducibility:
 ---
 
 ## 📸 Screenshots / Previews
+The application is live at : https://huggingface.co/spaces/abhi2400/Language_Translator
 
-Banner and diagrams are included above. For additional screenshots, add them to `assets/outputs/`.
+Screenshots of application:
+`assets/outputs/output1.png`
+`assets/outputs/output2.png`
+`assets/outputs/output3.png`
+
 
 ---
 
