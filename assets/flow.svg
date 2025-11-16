@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420">
+<style>
+    .box{fill:#ffffff;stroke:#2b6cb0;stroke-width:2;rx:8; ry:8;}
+    .title{font:16px 'Arial'; fill:#0b3d91; font-weight:700;}
+    .text{font:13px 'Arial'; fill:#222;}
+    .arrow{stroke:#2b6cb0; stroke-width:2; fill:none; marker-end:url(#arrow);}
+</style>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2b6cb0"/>
+  </marker>
+</defs>
+
+<!-- Boxes -->
+<rect x="30" y="30" width="180" height="70" class="box"/>
+<text x="40" y="55" class="title">User Input</text>
+<text x="40" y="75" class="text">Text / PDF / Audio</text>
+
+<rect x="260" y="30" width="220" height="110" class="box"/>
+<text x="270" y="55" class="title">Pre-processing</text>
+<text x="270" y="75" class="text">PDF extraction, audio capture,</text>
+<text x="270" y="95" class="text">text cleaning, segmentation</text>
+
+<rect x="520" y="30" width="260" height="110" class="box"/>
+<text x="530" y="55" class="title">Translation Engine</text>
+<text x="530" y="75" class="text">Model/API inference</text>
+<text x="530" y="95" class="text">Tokenization, batching</text>
+
+<rect x="300" y="170" width="220" height="90" class="box"/>
+<text x="310" y="195" class="title">Post-processing</text>
+<text x="310" y="215" class="text">Formatting, TTS, file output</text>
+
+<rect x="600" y="200" width="230" height="80" class="box"/>
+<text x="610" y="235" class="title">Output</text>
+<text x="610" y="255" class="text">Translated Text / Audio / PDF</text>
+
+<!-- Arrows -->
+<path d="M210,65 L260,65" class="arrow"/>
+<path d="M480,65 L520,65" class="arrow"/>
+<path d="M650,140 L650,170" class="arrow"/>
+<path d="M520,140 L430,170" class="arrow"/>
+<path d="M520,140 L720,240" class="arrow"/>
+
+</svg>
